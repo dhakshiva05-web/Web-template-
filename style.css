@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body { color: #333; background: #fff; line-height: 1.6; }
+.container { width: 90%; max-width: 1100px; margin: auto; }
+header { background: #111; color: #fff; padding: 1rem 0; }
+.logo { float: left; font-size: 1.5rem; }
+.nav-links { list-style: none; float: right; }
+.nav-links li { display: inline-block; margin: 0 10px; }
+.nav-links a { color: #fff; text-decoration: none; }
+.nav-links a.active { border-bottom: 2px solid #fff; }
+.hero { background: #333; color: #fff; text-align: center; padding: 100px 20px; }
+.btn { background: #ff6600; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+.features { display: flex; justify-content: space-between; margin: 50px 0; }
+.feature-box { flex: 1; margin: 10px; padding: 20px; background: #f5f5f5; border-radius: 8px; text-align: center; }
+.about { text-align: center; padding: 50px 0; }
+.about-img { margin-top: 20px; width: 100%; max-width: 600px; border-radius: 8px; }
+form { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+footer { background: #111; color: #fff; text-align: center; padding: 1rem 0; margin-top: 50px; }
